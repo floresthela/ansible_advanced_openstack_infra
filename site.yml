@@ -10,6 +10,6 @@
 - import_playbook: manage-security-groups.yml
 - import_playbook: manage-servers.yml
 
-# - import_playbook: manage-servers-example.yml
-
+- import_playbook: manage-servers-example.yml
+- import_playbook: inmem-inventory.yml
 ...
